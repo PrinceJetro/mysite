@@ -1,0 +1,109 @@
+    body{
+        font-family: 'Merriweather', serif;
+    }
+    .my_title{
+    text-align:center
+    }
+    .dropcontent{
+    display: none;
+    color:white;
+    padding: 16px 0px 16px 5px;
+    border: 5px solid blue
+    }
+    .drop:hover .dropcontent{
+    display:block;
+    }
+    .drop{
+    padding-top:15px;
+    margin:15px;
+    }
+
+    .more{
+        margin-left: 50%;
+    }
+    .more_ul{
+    list-style-type:none;
+    display:block;
+    padding-left: 0%;
+    
+    }
+    .more_ul li{
+    display:block;
+    margin-right:0px;
+    
+    }
+    .more_ul li a{
+    text-decoration:none;
+    display: block;
+    padding: 10px;
+    }
+    .more_ul li a:hover{
+        background-color:blue;
+        color:aliceblue
+    }
+    .my_pic{
+    height:300px;
+    width:250px;
+    float:center;
+    padding:20px
+    }
+    .my_img_div{
+    display:block
+    }
+    .cv-div{
+    text-align:center;
+    margin-bottom:100px
+    }
+    .cv{
+    border-radius:20px;
+    border:5px
+
+    }
+    .ourservice{
+        margin-top:10px
+    }
+    iframe{
+    width:100%;
+    height:150px;
+    }
+    .more_projects{
+    text-align:center;
+    margin-top:20px
+    }
+    .more_projects_button{
+    border-radius:20px;
+    border:5px
+    }
+    form {
+        width: 60vw;
+        max-width: 500px;
+        min-width: 300px;
+        margin: 0 auto;
+        margin-top:25px;
+      }
+      
+      fieldset {
+        border: none;
+        padding: 2rem 0;
+        border-bottom: 3px solid #3b3b4f;
+      }
+    .inline{
+        border-radius:20px;
+    }
+    footer{
+        background-color: rgb(73, 78, 82);
+        color:aliceblue;
+        padding:20px;
+        margin-top:10px;
+    }
+.footer_pages a{
+    display: block;
+    color:dimgrey;
+    text-decoration: none;
+}
+
+#logos{
+    font-size:45px;
+}
+
+
