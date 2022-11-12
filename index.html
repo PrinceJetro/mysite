@@ -25,20 +25,16 @@
 <body>
  <div class="container-fluid" id="fill">
     
-
+    <span style="font-size:30px;cursor:pointer;z-index:4" onclick="openNav()" id="menu"><i class="fa fa-bars"></i></span>
      <div class="col-sm-12 home" id="home"><h2 class="my_title">Jephthah</h2></div>
-       <div class="drop">
-        <span class="more"><i class='fa fa-bars' style='font-size:24px'></i></span>
-
-        <div class="dropcontent">
-            <ul class="more_ul">
-                <li class="about us"><a href="#">HOME</a></li>
-                <li class="services"><a href="#">ABOUT</a></li>
-                <li class="hostels"><a href="#">PORTFOLIO</a></li>
-                <li class="tuition"><a href="#">CONTACT</a></li>
-            </ul>
-        </div>
-    </div>
+     
+     <div id="mySidenav" class="sidenav">
+        
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <li class="home"><a href="index.html">HOME</a></li>
+                      <li class="portfolio"><a href="portfolio.html">PORTFOLIO</a></li>
+                      <li class="contact"><a href="contact.html">CONTACT</a></li>
+      </div>
      <div class="my_img_div">
         <img src="principal.jpg" class="my_pic img-responsive">
     </div>
@@ -107,21 +103,13 @@
      <div class="col-sm-12 myworks">
          <h4>My Works</h4>
          <h2>I present to you my <span style="color:blue">portfolio</span></h2>
-            <h3 style="color:blue">My very first Project</h3>
-         <iframe src="https://elaborate-entremet-01b63b.netlify.app/" ></iframe>
-         <h3 style="color:blue">My second of such</h3>
-         <iframe src="https://super-dusk-ebea6c.netlify.app/" ></iframe>
-         <h3 style="color:blue">Other projects</h3>
+         <h3 style="color:blue">My Projects</h3>
          <iframe src="https://golden-treacle-096159.netlify.app/" ></iframe><br>
-
          <iframe src="https://resilient-mooncake-8e1aeb.netlify.app/" ></iframe><br>
          <iframe src="https://stirring-duckanoo-2a54e9.netlify.app/" ></iframe><br>
 
-         <h3>Unfinished projects</h3>
-         <iframe src="https://incredible-halva-77531f.netlify.app/"></iframe>
-
         <div class=" col-sm-12 more_projects">
-             <button class="more_projects_button" onclick="me()">More Projects</button>
+             <h3>For more projects go to <a href="portfolio.html">Portfolio Page</a></h3>
         </div>
 
 
@@ -133,17 +121,17 @@
         <p>I enjoy learning and finding ways to build my existing knowledge with challenges</p>
         <p>I am open to any communucation!! <br> Feel free to contact me in any convenient way</p>
         
-        <a href="#"><i class="fa fa-phone" style="font-size:24px"> </i></a>  +2348088981691<br>
-        <a href="#"><i class="fa fa-envelope" style="font-size:12px"> </i></a> adegbuyijephthah@gmail.com
+        <a href="https://wa.me/+2348088981691"><i class="fa fa-phone" style="font-size:24px"> </i></a>  +2348088981691<br>
+        <a href="mailto:adegbuyijephthah@gmail.com"><i class="fa fa-envelope" style="font-size:12px"> </i></a> adegbuyijephthah@gmail.com
      </div>
         <div class="col-sm-12">
             <form action="#">
                 <fieldset>
-                    <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required /></label>
-                    
-                    <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
-                    <label for="messaage">Enter Your Message:<textarea id="message"></textarea> </label>
-                    <input type="submit" value="Contact us"class="inline">
+                    <label for="first-name">Enter Your First Name: <br><input id="first-name" name="first-name" type="text" required /></label><br>
+                        
+                        <label for="email">Enter Your Email:<br> <input id="email" name="email" type="email" required /></label><br>
+                        <label for="messaage">Enter Your Message:<br><textarea id="message"></textarea> </label><br>
+                        <input type="submit" value="Contact us"class="inline">
                   </fieldset>
             </form>
         </div>

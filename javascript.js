@@ -1,14 +1,15 @@
+  function display(){
+    document.querySelector(".hidden").style.cssText = `
+    display: flex; 
+    flex-direction: column;
+  `
+    
+  }
 
-
-$(document).ready(function(){
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
   
-    $('body').fadeOut(); 
-    $('body').fadeIn(5000);
-     
-    
-
-    
-    
-  });
-
-  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }

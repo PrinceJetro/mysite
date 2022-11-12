@@ -8,43 +8,47 @@
     .my_title{
     text-align:center
     }
-    .dropcontent{
-    display: none;
-    color:white;
-    padding: 16px 0px 16px 5px;
-    border: 5px solid blue
+    #menu{
+        position: fixed;
     }
-    .drop:hover .dropcontent{
-    display:block;
-    }
-    .drop{
-    padding-top:15px;
-    margin:15px;
-    }
-
-    .more{
-        margin-left: 50%;
-    }
-    .more_ul{
-    list-style-type:none;
-    display:block;
-    padding-left: 0%;
-    
-    }
-    .more_ul li{
-    display:block;
-    margin-right:0px;
-    
-    }
-    .more_ul li a{
-    text-decoration:none;
-    display: block;
-    padding: 10px;
-    }
-    .more_ul li a:hover{
-        background-color:blue;
-        color:aliceblue
-    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: blue;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      
+      @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+      }
     .my_pic{
     height:300px;
     width:250px;
@@ -60,7 +64,9 @@
     }
     .cv{
     border-radius:20px;
-    border:5px
+    font-size: larger;
+    border:5px;
+    padding: 20px;
 
     }
     .ourservice{
@@ -110,4 +116,16 @@
     font-size:45px;
 }
 
+.fa{
+    color:blue
+}
+
+.contact-main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.contact-main a{
+    display: inline-block;
+}
 
