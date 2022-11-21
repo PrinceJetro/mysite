@@ -6,7 +6,9 @@
         padding:20px 0px 0px 0px; 
     }
     .my_title{
-    text-align:center
+    text-align:center;
+    color: black;
+    text-shadow: 2px 2px 4px blue;
     }
     #menu{
         position: fixed;
