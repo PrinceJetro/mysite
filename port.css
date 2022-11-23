@@ -32,6 +32,9 @@ button{
 .hidden{
     display: none;
 }
+.hidden iframe{
+    margin:10px
+}
 form {
     width: 60vw;
     max-width: 500px;
