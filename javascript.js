@@ -39,11 +39,26 @@ $(document).ready(function(){
         job=0;
       }
 
-    setTimeout(() => {
-      hmm()
-    }, 300);
+      setTimeout(() => {
+        hmm()
+      }, 300);
+      
     
 }
+$(document).ready(function(){
+  title()
+})
+const named=["Jephthah"];
+name_index=0;
+function title(){
+  name_index = name_index+1;
+  document.getElementById("jephthah").innerHTML=`${named[0].slice(0, name_index)} `;
+  if(name_index == named[0].length){
+    name_index = 0
+  }
 
-
-
+  setTimeout(() => {
+    title()
+  }, 400);
+  
+}
