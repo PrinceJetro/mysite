@@ -131,3 +131,7 @@
     display: inline-block;
 }
 
+.web-preview a{
+  font-size: 20px;
+}
+
